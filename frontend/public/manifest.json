@@ -1,0 +1,54 @@
+{
+  "name": "KrishiSarthi - Agriculture AI Assistant",
+  "short_name": "KrishiSarthi",
+  "description": "AI-powered agriculture decision support system for farmers. Get crop recommendations, yield predictions, and disease detection on any device.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2E7D32",
+  "theme_color": "#2E7D32",
+  "orientation": "portrait-primary",
+  "categories": ["agriculture", "farming", "ai", "productivity"],
+  "lang": "en",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Crop Recommendation",
+      "short_name": "Crop Rec",
+      "description": "Get personalized crop suggestions",
+      "url": "/crop-recommendation",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Disease Detection",
+      "short_name": "Disease Det",
+      "description": "Identify plant diseases instantly",
+      "url": "/disease-detection",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Yield Prediction",
+      "short_name": "Yield Pred",
+      "description": "Predict crop yields using AI",
+      "url": "/yield-prediction",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

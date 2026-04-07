@@ -1,0 +1,164 @@
+{
+  "apple": {
+    "api_names": ["Apple"],
+    "estimated_cost_per_hectare": 300000,
+    "yield_tons_per_hectare_range": [7, 15],
+    "sustainability": { "water_usage_rating": 5, "pesticide_rating": 7, "soil_health_impact": 4 }
+  },
+  "banana": {
+    "api_names": ["Banana"],
+    "estimated_cost_per_hectare": 350000,
+    "yield_tons_per_hectare_range": [30, 60],
+    "sustainability": { "water_usage_rating": 9, "pesticide_rating": 9, "soil_health_impact": 6 }
+  },
+  "blackgram": {
+    "api_names": ["Black Gram (Urd Beans)(Whole)"],
+    "estimated_cost_per_hectare": 30000,
+    "yield_tons_per_hectare_range": [0.8, 1.2],
+    "sustainability": { "water_usage_rating": 3, "pesticide_rating": 4, "soil_health_impact": 2 }
+  },
+  "chickpea": {
+    "api_names": ["Bengal Gram(Gram)(Whole)", "Kabuli Chana(Chickpeas-White)"],
+    "estimated_cost_per_hectare": 28000,
+    "yield_tons_per_hectare_range": [1.0, 1.8],
+    "sustainability": { "water_usage_rating": 2, "pesticide_rating": 4, "soil_health_impact": 2 }
+  },
+  "coconut": {
+    "api_names": ["Coconut"],
+    "estimated_cost_per_hectare": 150000,
+    "yield_tons_per_hectare_range": [7, 12],
+    "sustainability": { "water_usage_rating": 8, "pesticide_rating": 3, "soil_health_impact": 4 }
+  },
+  "coffee": {
+    "api_names": ["Coffee"],
+    "estimated_cost_per_hectare": 220000,
+    "yield_tons_per_hectare_range": [0.7, 1.2],
+    "sustainability": { "water_usage_rating": 7, "pesticide_rating": 8, "soil_health_impact": 6 }
+  },
+  "cotton": {
+    "api_names": ["Kapas (Cotton)"],
+    "estimated_cost_per_hectare": 90000,
+    "yield_tons_per_hectare_range": [1.5, 3.0],
+    "sustainability": { "water_usage_rating": 9, "pesticide_rating": 10, "soil_health_impact": 8 }
+  },
+  "grapes": {
+    "api_names": ["Grapes"],
+    "estimated_cost_per_hectare": 400000,
+    "yield_tons_per_hectare_range": [20, 30],
+    "sustainability": { "water_usage_rating": 7, "pesticide_rating": 9, "soil_health_impact": 5 }
+  },
+  "jute": {
+    "api_names": ["Jute"],
+    "estimated_cost_per_hectare": 45000,
+    "yield_tons_per_hectare_range": [2.0, 2.5],
+    "sustainability": { "water_usage_rating": 8, "pesticide_rating": 4, "soil_health_impact": 4 }
+  },
+  "kidneybeans": {
+    "api_names": ["Beans", "Indian Beans (Seam)"],
+    "estimated_cost_per_hectare": 35000,
+    "yield_tons_per_hectare_range": [1.0, 1.6],
+    "sustainability": { "water_usage_rating": 4, "pesticide_rating": 5, "soil_health_impact": 3 }
+  },
+  "lentil": {
+    "api_names": ["Lentil (Masur)(Whole)"],
+    "estimated_cost_per_hectare": 25000,
+    "yield_tons_per_hectare_range": [0.9, 1.5],
+    "sustainability": { "water_usage_rating": 2, "pesticide_rating": 3, "soil_health_impact": 2 }
+  },
+  "maize": {
+    "api_names": ["Maize"],
+    "estimated_cost_per_hectare": 45000,
+    "yield_tons_per_hectare_range": [3.0, 5.0],
+    "sustainability": { "water_usage_rating": 5, "pesticide_rating": 5, "soil_health_impact": 6 }
+  },
+  "mango": {
+    "api_names": ["Mango"],
+    "estimated_cost_per_hectare": 120000,
+    "yield_tons_per_hectare_range": [8, 12],
+    "sustainability": { "water_usage_rating": 5, "pesticide_rating": 6, "soil_health_impact": 4 }
+  },
+  "mothbeans": {
+    "api_names": ["Mothbean"],
+    "estimated_cost_per_hectare": 22000,
+    "yield_tons_per_hectare_range": [0.7, 1.2],
+    "sustainability": { "water_usage_rating": 1, "pesticide_rating": 3, "soil_health_impact": 2 }
+  },
+  "mungbean": {
+    "api_names": ["Green Gram (Moong)(Whole)"],
+    "estimated_cost_per_hectare": 25000,
+    "yield_tons_per_hectare_range": [0.8, 1.5],
+    "sustainability": { "water_usage_rating": 3, "pesticide_rating": 4, "soil_health_impact": 2 }
+  },
+  "muskmelon": {
+    "api_names": ["Karbuja Musk Melon"],
+    "estimated_cost_per_hectare": 40000,
+    "yield_tons_per_hectare_range": [15, 25],
+    "sustainability": { "water_usage_rating": 6, "pesticide_rating": 6, "soil_health_impact": 4 }
+  },
+  "orange": {
+    "api_names": ["Orange"],
+    "estimated_cost_per_hectare": 120000,
+    "yield_tons_per_hectare_range": [8, 12],
+    "sustainability": { "water_usage_rating": 6, "pesticide_rating": 6, "soil_health_impact": 4 }
+  },
+  "papaya": {
+    "api_names": ["Papaya"],
+    "estimated_cost_per_hectare": 100000,
+    "yield_tons_per_hectare_range": [40, 60],
+    "sustainability": { "water_usage_rating": 6, "pesticide_rating": 6, "soil_health_impact": 3 }
+  },
+  "pigeonpeas": {
+    "api_names": ["Arhar (Tur/Red Gram)", "Pigeon Pea (New)"],
+    "estimated_cost_per_hectare": 30000,
+    "yield_tons_per_hectare_range": [1.2, 2.0],
+    "sustainability": { "water_usage_rating": 3, "pesticide_rating": 4, "soil_health_impact": 2 }
+  },
+  "pomegranate": {
+    "api_names": ["Pomegranate"],
+    "estimated_cost_per_hectare": 250000,
+    "yield_tons_per_hectare_range": [12, 18],
+    "sustainability": { "water_usage_rating": 6, "pesticide_rating": 8, "soil_health_impact": 4 }
+  },
+  "rice": {
+    "api_names": ["Rice"],
+    "estimated_cost_per_hectare": 55000,
+    "yield_tons_per_hectare_range": [3.0, 6.0],
+    "sustainability": { "water_usage_rating": 10, "pesticide_rating": 6, "soil_health_impact": 6 }
+  },
+  "watermelon": {
+    "api_names": ["Water Melon"],
+    "estimated_cost_per_hectare": 35000,
+    "yield_tons_per_hectare_range": [20, 30],
+    "sustainability": { "water_usage_rating": 7, "pesticide_rating": 6, "soil_health_impact": 4 }
+  },
+  "potato": {
+    "api_names": ["Potato"],
+    "estimated_cost_per_hectare": 80000,
+    "yield_tons_per_hectare_range": [15, 25],
+    "sustainability": { "water_usage_rating": 6, "pesticide_rating": 7, "soil_health_impact": 5 }
+  },
+  "onion": {
+    "api_names": ["Onion"],
+    "estimated_cost_per_hectare": 60000,
+    "yield_tons_per_hectare_range": [12, 20],
+    "sustainability": { "water_usage_rating": 5, "pesticide_rating": 6, "soil_health_impact": 4 }
+  },
+  "paddy": {
+    "api_names": ["Paddy(Dhan)"],
+    "estimated_cost_per_hectare": 55000,
+    "yield_tons_per_hectare_range": [3.0, 6.0],
+    "sustainability": { "water_usage_rating": 10, "pesticide_rating": 6, "soil_health_impact": 6 }
+  },
+  "wheat": {
+    "api_names": ["Wheat"],
+    "estimated_cost_per_hectare": 40000,
+    "yield_tons_per_hectare_range": [2.5, 4.5],
+    "sustainability": { "water_usage_rating": 4, "pesticide_rating": 5, "soil_health_impact": 3 }
+  },
+  "Default": {
+    "api_names": [""],
+    "estimated_cost_per_hectare": 45000,
+    "yield_tons_per_hectare_range": [2, 5],
+    "sustainability": { "water_usage_rating": 5, "pesticide_rating": 5, "soil_health_impact": 5 }
+  }
+}
