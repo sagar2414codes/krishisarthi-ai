@@ -1,22 +1,25 @@
 import axios, { AxiosInstance, AxiosError } from 'axios';
 import { ApiError } from './types';
 
-// Detect if running in Android emulator
+// Resolve the API base URL from:
+//   1. VITE_API_BASE_URL build-time env variable (production / staging)
+//   2. Android emulator detection
+//   3. localhost fallback for local development
 const getBaseURL = (): string => {
+  // Build-time env variable set via .env / CI secrets
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL as string;
+  }
+
   const hostname = window.location.hostname;
-  
-  // Check if we're in Android emulator
+
+  // Android emulator host
   if (hostname === '10.0.2.2' || hostname.includes('10.0.2.2')) {
-    return 'http://10.0.2.2:8000';
+    return 'http://10.0.2.2:7860';
   }
-  
-  // Check if we're in development
-  if (hostname === 'localhost' || hostname === '127.0.0.1') {
-    return 'http://127.0.0.1:8000';
-  }
-  
-  // Production URL would go here
-  return 'http://127.0.0.1:8000';
+
+  // Local development fallback
+  return 'http://127.0.0.1:7860';
 };
 
 class ApiClient {
