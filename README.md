@@ -104,25 +104,6 @@ npm run dev
 Create a file named .env inside the frontend folder and add:
 VITE_API_BASE_URL=http://127.0.0.1:7860
 
-📸 Screenshots
-
-## 📸 Screenshots
-
-### Home Page
-![Home](./screenshots/home.png)
-
-### Crop Recommendation
-![Crop](./screenshots/crop.png)
-
-### Disease Detection
-![Disease](./screenshots/disease.png)
-
-### Yield Prediction
-![Yield](./screenshots/yield.png)
-
-### Profit Analysis
-![Profit](./screenshots/profit.png)
-
 🚀 Features
 AI-powered Crop Recommendation
 Disease Detection using Image Processing
